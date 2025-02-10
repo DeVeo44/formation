@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>les base de Js</title>
+    <h1>comprendre</h1>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div>
+          <h4>tableaux</h4>
+          <table
+            border="4"
+            cellpadding="10"
+            cellspacing="0"
+            style="text-align: center; margin: auto"
+          >
+            <thead>
+              <tr>
+                <th>col 1</th>
+                <th>col 2</th>
+                <th>col 3</th>
+                <th>col 4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>cell 1</td>
+                <td>cell 2</td>
+                <td>cell 3</td>
+                <td>cell 4</td>
+              </tr>
+              <tr>
+                <td>cell 5</td>
+                <td>cell 6</td>
+                <td>cell 7</td>
+                <td>cell 8</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div><h5>les liens&#128058;</h5></div>
+        <h6><i>&#128190;</i>les vidéo</h6>
+        <video src="./vid.mp4" height="200" muted loop></video>
+      </section>
+      <section>
+        <h2>les formulaire</h2>
+        <form action="">
+          <label for="name">nom</label
+          ><input type="text" id="name" placeholder="entrez votre nom" />
+          <br />
+          <label for="age">entrez votre age</label>
+          <input type="number" id="age" />
+          <br />
+          <label for="gender">genre</label>
+          <select name="" id="gender">
+            <option value="homme">homme</option>
+            <option selected value="femme">femme</option>
+          </select>
+          <br />
+          <div>
+            <input type="radio" name="type" id="human" /><label for="human"
+              >Humain</label
+            >
+            <input type="radio" name="type" id="alien" /><label for="alien"
+              >Alien</label
+            >
+            <input type="radio" name="type" id="dog" /><label for="dog"
+              >Chien</label
+            >
+          </div>
+          <textarea
+            placeholder="votre message...."
+            cols="20"
+            rows="10"
+          ></textarea>
+          <br />
+          <input type="checkbox" name="" id="cgv" /><label for="cgv"
+            >veuillez cocher</label
+          >
+        </form>
+      </section>
+    </main>
+    <script src="test.js"></script>
+  </body>
+</html>
