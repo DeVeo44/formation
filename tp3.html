@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TP3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
@@ -15,53 +22,56 @@
         <li>Le Campus</li>
         <li>Newsroom</li>
         <li>Parents</li>
+        <li id="Language">FR | EN</li>
       </ul>
-      <button>FR/ENG</button>
     </nav>
     <header>
-      <img src="./TP3IMG/logo-gc-hero.png" alt="logo-gc-hero" />
+      <div id="Logo">
+        <img src="./TP3IMG/logo-gc-hero.png" alt="logo-gc-hero" />
+      </div>
       <h1>PASSION. PROFESSIONALISME. PERFORMANCE.</h1>
-      <button>Gaming Campus en video</button>
+      <button>
+        Gaming Campus en video <i class="fa-solid fa-angle-right"></i>
+      </button>
     </header>
-    <div>
+    <div class="header_text">
       <p>
         Imaginée par des professionels du jeux video gaming campus est une ecole
         qui a pour vocation de former les futurs talents du jeux video.
       </p>
     </div>
     <section class="top">
-      <div>
-        <img src="./TP3IMG/logo-gbs-home.png" alt="logo-gbs-home" />
-        <h3>Gaming Businnes School</h3>
-        <p>Formez vous dans une ecole dédié aux jeux video et au e-sport.</p>
-        <button>En savoir plus</button>
-      </div>
-      <div>
-        <img src="./TP3IMG/logo-ga-home.png" alt="logo-ga-home" />
-        <h3></h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus, sint.
-        </p>
-        <button>En savoir plus</button>
-      </div>
-      <div>
-        <img src="./TP3IMG/logo-gg-home.png" alt="logo-gg-home" />
-        <h3>Gaming Guru</h3>
-        <p>Jouer avec des milliers d'autres joueurs à vos jeux favoris</p>
-        <button>En savoir plus</button>
+      <div class="icon-part-container">
+        <div class="list-icon">
+          <img src="./TP3IMG/logo-gbs-home.png" alt="logo-gbs-home" />
+          <h3>Gaming Businnes School</h3>
+          <p>Formez vous dans une ecole dédié aux jeux video et au e-sport.</p>
+          <button>En savoir plus</button>
+        </div>
+        <div class="list-icon">
+          <img src="./TP3IMG/logo-ga-home.png" alt="logo-ga-home" />
+          <h3></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, sint.
+          </p>
+          <button>En savoir plus</button>
+        </div>
+        <div class="list-icon">
+          <img src="./TP3IMG/logo-gg-home.png" alt="logo-gg-home" />
+          <h3>Gaming Guru</h3>
+          <p>Jouer avec des milliers d'autres joueurs à vos jeux favoris</p>
+          <button>En savoir plus</button>
+        </div>
       </div>
     </section>
     <section class="middle">
       <div>
         <div>
-          <h2></h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
-            ipsa.
-          </p>
+          <h2>Les news du campus</h2>
+          <p>Suivez l'actualité de gaming campus et de ses étudiants.</p>
         </div>
-        <div><button></button></div>
+        <div><button>La Newsroom</button></div>
       </div>
       <div>
         <div>
@@ -75,49 +85,65 @@
           <button></button>
         </div>
         <div>
-          <img src="" alt="" />
-          <h3></h3>
+          <img src="./TP3IMG/ri8decembre.jpg" alt="ri8decembre" />
+          <h3>Réunion d'information du 19 Décembre</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus, sint. Sapiente aliquid, cupiditate suscipit dolore
             magni vero vitae accusamus impedit!
           </p>
-          <button></button>
+          <a href="">Sur Inscription</a>
         </div>
         <div>
-          <img src="" alt="" />
-          <h3></h3>
+          <img src="./TP3IMG/pgw18home.jpg" alt="pgw18home" />
+          <h3>Paris Games Week et réunion d'information</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus, sint. Sapiente aliquid, cupiditate suscipit dolore
             magni vero vitae accusamus impedit!
           </p>
-          <button></button>
+          <a href="">Lire la suite</a>
+        </div>
+        <div>
+          <img
+            src="./TP3IMG/inauguration_gaming_campus_photo.jpg"
+            alt="inauguration_gaming_campus_photo"
+          />
+          <h3>Inauguration Gaming Campus Lyon</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, sint. Sapiente aliquid, cupiditate suscipit dolore
+            magni vero vitae accusamus impedit!
+          </p>
+          <a href="">Lire la suite</a>
         </div>
       </div>
     </section>
     <section class="bottom">
       <div>
-        <div><img src="" alt="" /></div>
+        <div><img src="./TP3IMG/logo-gc-hero.png" alt="logo-gc-hero" /></div>
         <div>
-          <h3></h3>
+          <h3>Infos Pratiques</h3>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Gaming Business School</li>
+            <li>Gaming Campus</li>
+            <li>Gaming Guru</li>
+            <li>PGW</li>
+            <li>Recrutement</li>
+            <li>Pouet</li>
           </ul>
         </div>
         <div>
-          <h3></h3>
+          <h3>Parents</h3>
           <p></p>
-          <a href=""></a>
+          <a href="">En Savoir Plus</a>
         </div>
-        <div><h3></h3></div>
+        <div><h3>Nous Contacter</h3></div>
       </div>
-      <div></div>
+      <div>
+        <h4>Ils parlent de nous</h4>
+        <p>Voir les retombées presse</p>
+      </div>
       <div></div>
     </section>
     <footer>
