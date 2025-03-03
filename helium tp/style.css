@@ -7,9 +7,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #292929;
+  background-color: #111;
   color: white;
 }
+
+/*header*/
 
 header {
   width: 100%;
@@ -17,19 +19,29 @@ header {
   margin: 0 0 20px 0;
 }
 nav {
-  width: 95%;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
 nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   width: 40%;
+  gap: 20px;
 }
 nav h2 {
   margin-left: 20px;
+  font-size: 24px;
+  font-weight: bold;
 }
+
+/*main*/
+
 .header-left {
   display: flex;
 }
@@ -43,8 +55,7 @@ nav h2 {
 }
 .header-right {
   display: flex;
-  height: 200px;
-  width: 200px;
+  max-width: 40%;
 }
 
 /*footer*/
