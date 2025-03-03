@@ -30,7 +30,7 @@ nav ul {
 nav h2 {
   margin-left: 20px;
 }
-header-left {
+.header-left {
   display: flex;
 }
 .header-left-container {
@@ -45,4 +45,13 @@ header-left {
   display: flex;
   height: 200px;
   width: 200px;
+}
+
+/*footer*/
+
+.info {
+}
+.info-left {
+}
+.info-right {
 }
