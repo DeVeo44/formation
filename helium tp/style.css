@@ -12,12 +12,6 @@ body {
 }
 
 /*header*/
-
-header {
-  width: 100%;
-  background: var(--colorBgc);
-  margin: 0 0 20px 0;
-}
 nav {
   display: flex;
   justify-content: space-between;
@@ -41,7 +35,14 @@ nav h2 {
 }
 
 /*main*/
-
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .header-left {
   display: flex;
 }
