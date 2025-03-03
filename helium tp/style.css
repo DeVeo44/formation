@@ -1,11 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 body {
   margin: 0;
   padding: 0;
   background-color: #292929;
   color: white;
 }
-nav {
+
+header {
   width: 100%;
+  background: var(--colorBgc);
+  margin: 0 0 20px 0;
+}
+nav {
+  width: 95%;
   display: flex;
   justify-content: space-between;
 }
@@ -21,8 +33,13 @@ nav h2 {
 header-left {
   display: flex;
 }
-header-left h3 {
-  color: blue;
+.header-left-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-left-container h3 {
+  color: rgb(49, 49, 206);
 }
 .header-right {
   display: flex;
