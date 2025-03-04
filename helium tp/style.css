@@ -44,19 +44,20 @@ nav h2 {
   margin: 0 auto;
 }
 .header-left {
-  display: flex;
+  flex-grow: 1;
 }
-.header-left-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.header-left-container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 .header-left-container h3 {
   color: rgb(49, 49, 206);
+  margin-bottom: 10px;
 }
 .header-right {
-  display: flex;
-  max-width: 40%;
+  max-width: 30%;
+  text-align: right;
 }
 
 /*footer*/
