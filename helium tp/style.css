@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #111;
+  background-color: #222121;
   color: white;
 }
 
@@ -42,9 +42,15 @@ nav h2 {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  min-height: 80vh;
+  gap: 50px;
 }
 .header-left {
   flex-grow: 1;
+  margin-right: 50px;
+}
+.header-left-container {
+  max-width: 500px;
 }
 .header-left-container h1 {
   font-size: 48px;
@@ -55,16 +61,45 @@ nav h2 {
   color: rgb(49, 49, 206);
   margin-bottom: 10px;
 }
-.header-right {
-  max-width: 30%;
-  text-align: right;
+.header-left-container p {
+  color: #aaa;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
+.header-right {
+  max-width: 500px;
+  align-items: right;
+  justify-content: right;
+}
+.header-right img {
+  width: 100%;
+  height: auto;
+}
 /*footer*/
 
 .info {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 80vh;
+  gap: 50px;
 }
 .info-left {
 }
+.btn-container {
+  background-color: blue;
+  justify-content: space-between;
+  gap: 20px;
+}
 .info-right {
+}
+.investors {
+  justify-content: space-between;
+  gap: 20px;
 }
