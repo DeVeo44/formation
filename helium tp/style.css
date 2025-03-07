@@ -20,29 +20,22 @@ body {
 
 /*header*/
 nav {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 50% 50%;
   padding: 10px 20px;
-  align-items: center;
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 /*main*/
 .header {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 50% 50%;
   margin: 30px auto;
 }
-.header-left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-}
+
 h1 {
   font-size: 5rem;
 }
@@ -55,23 +48,17 @@ h1 {
 }
 #modem {
   width: 100%;
+  margin: 0 auto;
 }
 /*footer*/
 
 .info {
+  display: grid;
+  grid-template-columns: 33% 67%;
   background-color: rgb(10, 10, 10);
-  display: flex;
   border-radius: 10px;
 }
-.info-left {
-  width: 33%;
-}
 
-.btn-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
 button {
   border: none;
   background: #474dff;
@@ -87,13 +74,13 @@ button {
   width: 67%;
 }
 .investors {
-  display: flex;
+  display: grid;
+  align-items: center;
+  height: 80%;
 }
 .img-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 .img-container img {
   height: 60px;
