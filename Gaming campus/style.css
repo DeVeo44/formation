@@ -52,6 +52,10 @@
   text-align: center;
   justify-content: space-between;
 }
+.list-icon img {
+  width: 250px;
+  height: auto;
+}
 .list-icon button {
   transition-duration: 0.4s;
   color: beige;
@@ -62,4 +66,12 @@
 .list-icon button:hover {
   background-color: aliceblue;
   color: black;
+}
+.middle {
+}
+.news {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 80%;
 }
