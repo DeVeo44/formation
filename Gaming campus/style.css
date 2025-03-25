@@ -1,0 +1,65 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 8 auto;
+  max-width: 80%;
+}
+#Language {
+  border-radius: 10%;
+  background-color: rgb(207, 208, 209);
+}
+.header {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.header #Logo img {
+  width: 450px;
+  height: auto;
+}
+.header h1 {
+  text-align: center;
+  font-size: large;
+  color: aliceblue;
+}
+.header button {
+  transition-duration: 0.4s;
+  color: beige;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+}
+.header button:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.header_text {
+  text-align: center;
+  margin: auto;
+  max-width: 85%;
+}
+.top {
+  background-color: rgb(12, 12, 12);
+  color: azure;
+}
+.icon-part-container {
+  display: flex;
+  justify-content: space-between;
+}
+.list-icon {
+  text-align: center;
+  justify-content: space-between;
+}
+.list-icon button {
+  transition-duration: 0.4s;
+  color: beige;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  font-size: large;
+}
+.list-icon button:hover {
+  background-color: aliceblue;
+  color: black;
+}
