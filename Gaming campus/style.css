@@ -1,8 +1,25 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+}
+button {
+  background: none;
+  outline: none;
+  border: 1px solid whitesmoke;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .nav {
   display: flex;
   justify-content: space-between;
-  list-style: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 8 auto;
   max-width: 80%;
 }
@@ -68,10 +85,27 @@
   color: black;
 }
 .middle {
+  background-color: rgb(233, 227, 227);
+}
+.middle-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 10px;
+}
+.middle-container button {
+  transition-duration: 0.4s;
+  color: rgb(17, 17, 16);
+  background-color: transparent;
+  border: 1px solid rgb(9, 10, 10);
+  font-size: large;
 }
 .news {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  max-width: 80%;
+  margin: 10px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
 }
